@@ -1,0 +1,187 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700italic);
+* { padding: 0; margin: 0; }
+body { 
+    background-color: black;
+    background-size: cover;
+    font-family: 'Lato', sans-serif; 
+    text-transform: uppercase; 
+    letter-spacing: 1px;}
+
+header {
+  display: table;
+  padding: 2em 5%;
+  background: #1abc9c;
+  color: #fff;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header nav,
+header div {
+  display: table-cell;
+  vertical-align: middle;
+  height: 8em;
+}
+
+header nav {
+  text-align: right;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 720px){
+    header {
+        height: auto;
+    }
+    
+    header > div,
+    header > div h1,
+    header nav {
+        height: auto;
+        width: auto;
+        display: block;
+        text-align: center;
+    }
+}
+
+header > div h1 {
+    font-size: 3em;
+    font-style: italic;
+}
+
+header nav a {
+    text-decoration: none;
+    padding: 0 0.6em;
+    white-space: nowrap;
+    color: black;
+}
+.Zag a{
+color: black;
+text-decoration: none;
+}
+a{
+    color: #1abc9c;
+}
+.PepeDance {
+    background:url(https://c.tenor.com/B0BbyOHgHt4AAAAi/pepe-the-frog-dance.gif);
+    width: 93px;
+    height: 80px;
+    background-size: cover;
+}
+.PepeButi{
+    background:url(https://c.tenor.com/G5YA-Jm1pG4AAAAi/peeposhy-pepe-the-frog.gif);
+    width: 60px;
+    height: 59px;
+    background-size: cover;
+    position: absolute;
+    right: 21%;
+    top: 20px;
+}
+.PepeOcr{
+    background:url(https://c.tenor.com/ipXBuuE3QhAAAAAi/twitch-peepo.gif);
+    width: 65px;
+    height: 59px;
+    background-size: cover;
+    position: absolute;
+    right: 13%;
+    top: 20px;
+}
+.PepeCrazy{
+    background:url(https://c.tenor.com/z5zgllWcvkQAAAAi/peepo-giggle-peepo.gif);
+    width: 60px;
+    height: 59px;
+    background-size: cover;
+    position: absolute;
+    right: 6%;
+    top: 24px;
+}
+main .OneCh{
+    background: url();
+    position: absolute;
+    background-size: cover;
+    width: 280px;
+    height: 350px;
+    top: 53%;
+   
+}
+.zeroTxt p{
+    position: absolute;
+    width: 1400px;
+    height: 100px;
+    left: 14%;
+    top: 40%;
+    color: white;
+    text-align: justify;
+}
+main h2{
+    position: absolute;
+    right: 48%;
+    color: white;
+    top: 30%;
+}
+main h3{
+    position: absolute;
+    right: 39%;
+    color: white;
+    top: 34%;
+}
+footer {
+   /* Позиционируем footer внизу main */
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   /* Высота footer */
+   height: 80px;
+   background: #1abc9c;
+}
+.footer-pepe{
+    text-decoration: none;
+    position: absolute;
+    top: 30px;
+    left: 2%;
+    width: 165px;
+    height: 20px;
+    color: black;
+}
+.footer-pism{
+    text-decoration: none;
+    position: absolute;
+    top: 30px;
+    right: 2%;
+    width: 175px;
+    height: 50px;
+    color: black;
+}
+
+.fa{
+    background: url(https://www.clipartmax.com/png/full/369-3696238_facebook-logo-svg-png-icon-free-download-facebook-logo-svg-png-icon.png);
+    position: absolute;
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    left: 51%;
+    top: 30%;
+}
+.tw{
+    background: url(https://freepngimg.com/thumb/social_media/73991-media-icons-computer-twitter-social-download-hq-png.png);
+    position: absolute;
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    left: 49%;
+    top: 30%;
+}
+.in{
+    background: url(https://cdn.shopify.com/s/files/1/1338/0835/files/instagram.png?v=1580430486);
+    position: absolute;
+    background-size: cover;
+    width: 37px;
+    height: 35px;
+    left: 47%;
+    top: 30%;
+}
+.footer-pism a{
+    text-decoration: none;
+    color: black;
+}
+
